@@ -1,4 +1,48 @@
 # Mod Alchemist (Ultrahand v1.6.8+)
+Ein Ultrahand-Paket zur Verwaltung und Konvertierung von Mods auf der Nintendo Switch.
+
+![banner](.pics/banner.png)
+
+## Konfiguration
+
+Die Datei `package.ini` enthält folgende Konfigurationen:
+
+### Mod-Verwaltung
+- `[*Toggle exeFS Patches]`: ExeFS-Patches nach Auswahl umschalten.
+- `[*Delete exeFS Patches]`: Ausgewählte exeFS-Patches löschen.
+- `[*Toggle Content Mods]`: Inhaltsmods nach Auswahl umschalten.
+- `[*Delete Content Mods]`: Ausgewählte Inhaltsmods löschen.
+- `[*Search Pattern]`: Suchmuster für Mod-Gruppen konfigurieren.
+- `[Enable All]`: Alle Mods basierend auf Suchmustern aktivieren.
+- `[Disable All]`: Alle Mods basierend auf Suchmustern deaktivieren.
+
+### Mod-Konvertierung
+- `[*pchtxt -> ips]`: Konvertiert pchtxt-Dateien in IPS-Patches.
+- `[*pchtxt -> cheat]`: Konvertiert pchtxt-Dateien in Cheat-Codes.
+
+Jede Konfiguration hat eine Reihe von Befehlen, die die entsprechenden Aktionen ausführen. Diese beinhalten das Verschieben, Löschen, Erstellen von Verzeichnissen, Kopieren von Dateien und Konvertieren von Dateien in bestimmte Formate.
+
+## Mods beschaffen
+
+Um die im Mod Alchemist-Paket bereitgestellten Mods zu verwenden, müssen diese separat beschafft werden. Die Mods sollten in die entsprechenden Ordner im `Mod Alchemist`-Verzeichnis gelegt werden.
+
+Bitte beziehe dich auf die gemeinsame Dokumentation oder zusätzliche Ressourcen, um die spezifischen Mods zu erwerben, die dich interessieren. Sobald du die Mods erhalten hast, platziere sie in den entsprechenden Ordnern im `Mod Alchemist`-Verzeichnis.
+
+## Installation von Mod Alchemist
+
+Um `Mod Alchemist` zu installieren:
+
+1. Kopiere das `Mod Alchemist`-Verzeichnis nach `/switch/.packages/`.
+
+Hinweis: Stelle sicher, dass du die Mods ordnungsgemäß in den Unterverzeichnissen wie im Abschnitt "Mods beschaffen" erwähnt organisiert hast.
+
+## Weitere Informationen
+
+Weitere Details zum Ultrahand Overlay-Projekt und dessen Funktionen findest du im [offiziellen GitHub-Repository](https://github.com/ppkantorski/Ultrahand-Overlay).
+
+---
+
+# Mod Alchemist (Ultrahand v1.6.8+)
 An Ultrahand package designed for managing and converting mods on the Nintendo Switch.
 
 ![banner](.pics/banner.png)
